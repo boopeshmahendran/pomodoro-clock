@@ -4,10 +4,10 @@ A simple responsive pomodoro clock using angular 2
 
 ## Requirements
 
-- Ability to change work timing and interval timing
-- Default of work timing is 25 minutes and interval timing is 5 minutes
-- Add options to start, stop and reset the timer
-- Disable changing timing when timer is running
+- ~~Ability to change work timing and interval timing~~
+- ~~Default of work timing is 25 minutes and interval timing is 5 minutes~~
+- ~~Add options to start, stop and reset the timer~~
+- ~~Disable changing timing when timer is running~~
 - Make it responsive
 - Make it visually appealing
 
