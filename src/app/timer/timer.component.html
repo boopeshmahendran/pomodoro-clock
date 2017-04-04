@@ -1,0 +1,7 @@
+<div class="timer">
+  {{minutes | padWithLeadingZeros:2 }} : {{seconds | padWithLeadingZeros:2 }}
+  <div class="buttons">
+    <button (click)="start()">Start</button>
+    <button (click)="stop()">Stop</button>
+  </div>
+</div>

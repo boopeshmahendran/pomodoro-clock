@@ -1,0 +1,7 @@
+<div class="pomodoroclock">
+  <div class="timechangers">
+    <app-timechanger [canChange]="canChange" [(value)]="workTiming"></app-timechanger>
+    <app-timechanger [canChange]="canChange" [(value)]="intervalTiming"></app-timechanger>
+  </div>
+  <app-timer #timer (isTimerRunning)="changeUpdateState($event)" (timerFinished)="changeTiming($event)" [time]="currentTiming"></app-timer>
+</div>
